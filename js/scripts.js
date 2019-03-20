@@ -35,13 +35,15 @@ function displayTime() {
     var m = time.getMinutes();
     var s = time.getSeconds();
 
+ h = zeroValue(h);
+  m = zeroValue(m);
+  s = zeroValue(s);
+
     document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
 
     setTimeout(displayTime,1000);
 
-    h = zeroValue(h);
-	m = zeroValue(m);
-	s = zeroValue(s);
+   
 
 	function zeroValue(number){
 	if (number < 10) {
