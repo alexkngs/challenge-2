@@ -1,0 +1,79 @@
+/*
+colour scheme
+
+green
+red
+black
+
+*/
+
+body {
+	background: black;
+	color: #67e1f7;
+}
+
+.align{
+	text-align: center;
+	margin:0;
+	padding-top: 100px;
+}
+
+.themeButton{
+background-color: transparent; 
+color: white; 
+border: 3px solid white;
+cursor: pointer;
+
+text-align: center;
+text-decoration: none;
+font-family: 'Roboto Mono', monospace;
+font-weight: 400;
+}
+
+.themeButton:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: black;
+}
+
+/* time - hours, minutes, seconds */
+#time { 
+	font-size: 200px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	margin: auto;
+	text-align: center;
+
+}
+
+/* day */
+#day {
+	font-size: 40px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
+	display: inline-block;
+	padding-right: 20px;
+	margin:0;
+	
+
+}
+
+/* date */
+#date{
+	font-size: 40px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
+	display: inline-block;
+	margin:0;
+	
+}
+
+/* alien */
+#alien {
+width: 50%;
+height:50%;
+position: relative;
+}
+
+
+

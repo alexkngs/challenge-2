@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space clock challenge 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" ></script>
+   
+</head>
+
+<body onload="wheee()">
+
+	<main >
+	
+	<section id="theme-change">
+		<!-- day and date -->
+		<div class="align">
+
+			<p id="day">
+				
+			</p>
+
+			<p id="date">
+				
+			</p>
+
+		</div>
+
+		<!-- time -->
+
+		<div>
+			<p id="time">
+			</p>
+		</div>
+
+		<!-- button -->
+		<div  onclick="theme()">
+
+			<p class="themeButton"> SWITCH UP THE THEME </p>
+		</div>
+
+
+	</section>
+
+<!-- alien animation -->
+		<div id="alien">
+			<img src="images/alien.png" alt="alien">
+		</div>
+
+	</main>
+ <script src="js/scripts.js"></script>
+	<script type="text/javascript">
+		displayTime()
+		displayWeekDay()
+		displayDate()
+	</script>
+
+</body>
+
+</html>
+
